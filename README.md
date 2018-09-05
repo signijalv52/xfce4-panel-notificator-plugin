@@ -19,6 +19,7 @@ gcc -shared -Wall -fPIC -o libandromeda.so andromeda.c \`pkg-config --cflags --l
 - PANEL_DEBUG=1 xfce4-panel
 ## known bugs
 - panel must be placed on bottom only
+- dbus_connection_setup_with_g_main is deprecated
 ## user manual
 - add plugin on panel
 - you can show/hide popup window by clicking on plugin button
