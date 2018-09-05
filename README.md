@@ -19,3 +19,8 @@ gcc -shared -Wall -fPIC -o libandromeda.so andromeda.c \`pkg-config --cflags --l
 - PANEL_DEBUG=1 xfce4-panel
 ## known bugs
 - panel must be placed on bottom only
+## user manual
+- add plugin on panel
+- you can show/hide popup window by clicking on plugin button
+- you can set text in popup window via dbus methods. Working example:
+dbus-send --session --type=method_call --dest=andromeda.server / andromeda.listener.print string:'hello!'
