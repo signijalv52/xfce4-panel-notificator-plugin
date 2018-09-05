@@ -1,0 +1,10 @@
+[Xfce Panel]
+Type=X-XFCE-PanelPlugin
+Encoding=UTF-8
+Name=andromeda
+Comment=andromeda
+X-XFCE-Module=andromeda
+X-XFCE-Module-Path=/usr/lib/i386-linux-gnu/xfce4/panel-plugins
+X-XFCE-Internal=false
+X-XFCE-Unique=true
+X-XFCE-API=2.0
