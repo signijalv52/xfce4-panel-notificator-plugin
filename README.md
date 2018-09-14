@@ -25,3 +25,4 @@ gcc -shared -Wall -fPIC -o libandromeda.so andromeda.c \`pkg-config --cflags --l
 - you can show/hide popup window by clicking on plugin button
 - you can set text in popup window via dbus methods. Working example: dbus-send --session --type=method_call --dest=andromeda.server / andromeda.listener.print string:'hello!'
 - you can flash widgets via dbus methods. Working example: dbus-send --session --type=method_call --dest=andromeda.server / andromeda.listener.flash
+- sudo -u <user> -E <send command> if you want to send to another active user
