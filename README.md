@@ -1,5 +1,5 @@
 # xfce4-panel-notificator-plugin aka andromeda
-This is simple xfce4-panel notificator plugin written on C using GTK3 library. Plugin can recieve text messages or something else via D-Bus. May be useful as alternative libnotify.
+This is simple xfce4-panel notificator plugin written on C using GTK3 library. Plugin can recieve text messages or something else via D-Bus.
 ## required
 written and tested using:
 - Debian GNU/Linux 9.4 (x86 or x86-64)
@@ -17,7 +17,6 @@ gcc -shared -Wall -fPIC -o libandromeda.so andromeda.c \`pkg-config --cflags --l
 - PANEL_DEBUG=1 xfce4-panel
 ## known bugs
 - panel must be placed on bottom only
-- dbus_connection_setup_with_g_main is deprecated
 ## user manual
 - add plugin on panel
 - you can show/hide popup window by clicking on plugin button
