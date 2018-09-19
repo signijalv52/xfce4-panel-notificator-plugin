@@ -4,12 +4,10 @@ This is simple xfce4-panel notificator plugin written on C using GTK3 library. P
 written and tested using:
 - Debian GNU/Linux 9.4 (x86 or x86-64)
 - xfce4-panel 4.12.1-2
-- dbus-glib-1 0.108-2
 ## compilation
 gcc -shared -Wall -fPIC -o libandromeda.so andromeda.c \`pkg-config --cflags --libs libxfce4panel-2.0 dbus-glib-1\`
 ## build dependencies
 - libxfce4panel-2.0-dev
-- libdbus-glib-1-dev
 ## installation
 - change in file *.desktop i386-linux-gnu to x86_64-linux-gnu if you use Debian 64bit
 - sudo cp andromeda.desktop /usr/share/xfce4/panel-plugins/andromeda.desktop
