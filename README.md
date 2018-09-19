@@ -5,7 +5,7 @@ written and tested using:
 - Debian GNU/Linux 9.4 (x86 or x86-64)
 - xfce4-panel 4.12.1-2
 ## compilation
-gcc -shared -Wall -fPIC -o libandromeda.so andromeda.c \`pkg-config --cflags --libs libxfce4panel-2.0 dbus-glib-1\`
+gcc -shared -Wall -fPIC -o libandromeda.so andromeda.c \`pkg-config --cflags --libs libxfce4panel-2.0\`
 ## build dependencies
 - libxfce4panel-2.0-dev
 ## installation
